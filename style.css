@@ -4,9 +4,9 @@
 
 }
 
-.header {
+.site-nav {
     background-color: var(--background-color);
-    /* color: white; */
+    color: white;
     padding: 20px;
     text-align: center;
 }
