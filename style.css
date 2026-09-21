@@ -2,8 +2,11 @@
 
 :root{
     /* Color Pallete */
-    --background-main: #1b1a1a;
+    --background-main: #131212;
     --background-card: #131111;
+    --text-color:aliceblue;;
+
+    /* Main Font */
     --main-font:cantarell, serif;
 }
 
@@ -13,10 +16,12 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-main);
-    color: var(--header-color);
-    font-family: var(--main-font);
 }
 
 .site-nav {
@@ -24,7 +29,7 @@ body {
     /* color: var(--header-color); */
     padding: 30px;
     text-align: center;
-    margin: 0;
+    border: 1px solid #252525;
 }
 
 .nav-list {
@@ -35,10 +40,16 @@ body {
     margin: 0;
     padding: 0;
     font: 25px var(--main-font);
-    color:aliceblue;
 }
 
 a {
-    color:aliceblue;
+    color: var(--text-color);
     text-decoration: none;
+}
+
+.section-title {
+    margin-left:30px;
+    margin-top: 20px;
+    color: var(--text-color);
+    font:30px var(--main-font);
 }
