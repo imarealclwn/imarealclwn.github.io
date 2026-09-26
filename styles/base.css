@@ -2,9 +2,10 @@
 
 :root{
     /* Color Pallete */
-    --background-main: rgba(19, 17, 17, 0.8);
-    --background-card: rgba(19, 17, 17, 0.8);
-    --text-color:aliceblue;;
+    --background-main: #121212;
+    --background-card: #242424;
+    --text-color-main: #F8FAFC;
+    --text-color-secondary: #94A3B8;
 
     /* Main Font */
     --main-font:cantarell, serif;
@@ -19,6 +20,25 @@ html {
     scroll-behavior: smooth;
     width: 100%;
     overflow-x: hidden;
-    border: 1px groove rgb(74, 79, 83);
+    /* border: 4px solid var(--background-card); */
 }
 
+a {
+    color: var(--text-color-main);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text-color-secondary);
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color-main);
+    font: 70px var(--main-font);
+}
+
+p {
+    color: var(--text-color-secondary);
+    font: 30px var(--main-font);
+}

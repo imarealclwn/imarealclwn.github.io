@@ -1,8 +1,10 @@
+/* HEADER */
+
 .site-nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 125px;
+    height: 150px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -10,12 +12,11 @@
 }
 
 .site-nav {
-    background-color: var(--background-card);
-    border: 1px solid #252525;
-    /* margin-top: 10px; */
-    height: 100px;
+    background-color: rgba(var(--background-main), 0.3);
+    border: 4px solid var(--background-card);
+    height: 75px;
     width: 45%;
-    border-radius: 25px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,46 +29,75 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font: 20px var(--main-font);
+    font: 23px var(--main-font);
 }
 
-.nav-link {
-    color: var(--text-color);
-    text-decoration: none;
+/* BODY - PART 1 */
+
+.body-content {
+    background-color: var(--background-main);
+    justify-content: center;
+    align-items: center;
 }
 
-.section-title {
-    margin-left:30px;
-    margin-top: 20px;
-    color: var(--text-color);
-    font:30px var(--main-font);
+.main-content-1-container {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border-bottom: 0.5px solid var(--background-card); */
+    border: 2px solid #F8FAFC;
+    border-radius: 8px;
 }
 
-.lorem-ipsum {
-    margin-left:30px;
-    margin-top: 20px;
-    color: var(--text-color);
-    font:20px var(--main-font);
-    width: 50%;
+.main-content-1 {
+    margin-top: 5%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 2px solid green; */
+}
+
+.introduction-part-container {
+    background-color: var(--background-card);
+    height: 70%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    /* border: 2px solid blue; */
+}
+
+.text-container-1 {
+    height: 70%;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+
+    /* border: 2px solid red; */
 }
 
 .profile-picture-container {
-    background-color: var(--background-card);
-    width: 50%;
+    height: 70%;
+    width: 40%;
+    
+    /* border:2px solid red; */
 }
 
 .profile-picture {
-    max-width: 100%;
-    height: auto;
-    margin-left: 30px;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
 }
 
-.main-content {
-    background-color: var(--background-card);
+.main-content-2 {
+    background-color: inherit;
     display: flex;
-}
-
-.introduction-part {
-    background-color: var(--background-card);
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
