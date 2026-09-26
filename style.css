@@ -24,12 +24,24 @@ body {
     background-color: var(--background-main);
 }
 
+.site-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
 .site-nav {
     background-color: var(--background-card);
     /* color: var(--header-color); */
     padding: 30px;
     text-align: center;
     border: 1px solid #252525;
+    margin-top: 20px;
+    height: 100px;
+    width: 80%;
 }
 
 .nav-list {
@@ -42,7 +54,7 @@ body {
     font: 25px var(--main-font);
 }
 
-a {
+.nav-link {
     color: var(--text-color);
     text-decoration: none;
 }
@@ -52,4 +64,41 @@ a {
     margin-top: 20px;
     color: var(--text-color);
     font:30px var(--main-font);
+}
+
+.lorem-ipsum {
+    margin-left:30px;
+    margin-top: 20px;
+    color: var(--text-color);
+    font:20px var(--main-font);
+    width: 50%;
+}
+
+.profile-picture-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 40px;
+    background-color:aqua;
+    width: 50%;
+}
+
+.profile-picture {
+    /* width: 300px; */
+    /* height: 300px; */
+    /* border-radius: 50%\\; */
+    margin-left: 30px;
+    margin-top: 20px;
+    color:aquamarine
+}
+
+.main-content {
+    background-color: var(--background-card);
+    display: flex;
+}
+
+.introduction-part {
+    background-color: aquamarine;
+    width: 50%;
+    margin-top: 40px;
 }
