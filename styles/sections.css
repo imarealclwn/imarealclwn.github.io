@@ -1,0 +1,73 @@
+.site-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.site-nav {
+    background-color: var(--background-card);
+    border: 1px solid #252525;
+    /* margin-top: 10px; */
+    height: 100px;
+    width: 45%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex; 
+    justify-content: center;
+    gap: 80px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font: 20px var(--main-font);
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.section-title {
+    margin-left:30px;
+    margin-top: 20px;
+    color: var(--text-color);
+    font:30px var(--main-font);
+}
+
+.lorem-ipsum {
+    margin-left:30px;
+    margin-top: 20px;
+    color: var(--text-color);
+    font:20px var(--main-font);
+    width: 50%;
+}
+
+.profile-picture-container {
+    background-color: var(--background-card);
+    width: 50%;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.main-content {
+    background-color: var(--background-card);
+    display: flex;
+}
+
+.introduction-part {
+    background-color: var(--background-card);
+    width: 50%;
+}

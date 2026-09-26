@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    /* Color Pallete */
+    --background-main: rgba(19, 17, 17, 0.8);
+    --background-card: rgba(19, 17, 17, 0.8);
+    --text-color:aliceblue;;
+
+    /* Main Font */
+    --main-font:cantarell, serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+    border: 1px groove rgb(74, 79, 83);
+}
+
